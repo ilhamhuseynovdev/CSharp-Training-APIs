@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "BankQueueAPI.Controllers.ServiceTypesController",
+    "Method": "AllServices",
+    "RelativePath": "api/ServiceTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankQueueAPI.Controllers.ServiceTypesController",
+    "Method": "CreateService",
+    "RelativePath": "api/ServiceTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BankQueueAPI.DTOs.CreateServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankQueueAPI.Controllers.TicketsController",
+    "Method": "CallNext",
+    "RelativePath": "api/Tickets/call-next/{serviceTypeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankQueueAPI.Controllers.TicketsController",
+    "Method": "CompleteTicket",
+    "RelativePath": "api/Tickets/complete/{ticketId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankQueueAPI.Controllers.TicketsController",
+    "Method": "TakeTicket",
+    "RelativePath": "api/Tickets/Service-{Id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
