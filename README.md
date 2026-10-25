@@ -15,11 +15,11 @@ Welcome to my personal learning and portfolio repository! As a full-stack develo
 
 ## 📂 Projects Roadmap
 
-| #   | Project Name                 | Description                                                   | Status         |
-| --- | ---------------------------- | ------------------------------------------------------------- | -------------- |
-| 01  | **Expense Tracker API**      | Personal finance management API with categories and expenses. | ✅ Completed   |
-| 02  | **Bank Queue API**           | Queue management system inspired by banking operations.       | ✅ Completed   |
-| 03  | **Mini E-Commerce Cart API** | Advanced relational product & cart management system.         | 🔄 In Progress |
+| #   | Project Name                 | Description                                                   | Status       |
+| --- | ---------------------------- | ------------------------------------------------------------- | ------------ |
+| 01  | **Expense Tracker API**      | Personal finance management API with categories and expenses. | ✅ Completed |
+| 02  | **Bank Queue API**           | Queue management system inspired by banking operations.       | ✅ Completed |
+| 03  | **Mini E-Commerce Cart API** | Advanced relational product & cart management system.         | ✅ Completed |
 
 ## 🎯 Goal
 

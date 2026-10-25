@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\MiniE-CommerceCartAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|MiniE-CommerceCartAPI.csproj|c:\\users\\ilham\\desktop\\c#-mini-apis\\csharp-training-apis\\minie-commercecartapi\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|MiniE-CommerceCartAPI.csproj|solutionrelative:controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|MiniE-CommerceCartAPI.csproj|c:\\users\\ilham\\desktop\\c#-mini-apis\\csharp-training-apis\\minie-commercecartapi\\dtos\\allcartsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|MiniE-CommerceCartAPI.csproj|solutionrelative:dtos\\allcartsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllCartsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\MiniE-CommerceCartAPI\\DTOs\\AllCartsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AllCartsDto.cs",
+              "ToolTip": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\MiniE-CommerceCartAPI\\DTOs\\AllCartsDto.cs",
+              "RelativeToolTip": "DTOs\\AllCartsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:12:29.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\MiniE-CommerceCartAPI\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartsController.cs",
+              "ToolTip": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\MiniE-CommerceCartAPI\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "Controllers\\CartsController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwHYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T15:01:42.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 89,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

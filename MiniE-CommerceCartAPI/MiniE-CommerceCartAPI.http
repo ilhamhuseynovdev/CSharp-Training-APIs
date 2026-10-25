@@ -1,0 +1,6 @@
+@MiniE_CommerceCartAPI_HostAddress = http://localhost:5196
+
+GET {{MiniE_CommerceCartAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
