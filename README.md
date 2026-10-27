@@ -20,8 +20,8 @@ Welcome to my personal learning and portfolio repository! As a full-stack develo
 | 01  | **Expense Tracker API**          | Personal finance management API with categories and expenses.                                   | ✅ Completed   |
 | 02  | **Bank Queue API**               | Queue management system inspired by banking operations with state management.                   | ✅ Completed   |
 | 03  | **Mini E-Commerce Cart API**     | Basic relational product & cart management system.                                              | ✅ Completed   |
-| 04  | **Advanced E-Commerce (N-Tier)** | Refactored E-Commerce system implementing Service Layer, Dependency Injection, and DTO Mappers. | 🔄 In Progress |
-| 05  | **Identity & JWT Auth Service**  | Enterprise-grade User Authentication, JWT Tokens, and Role-Based Authorization.                 | ⏳ Planned     |
+| 04  | **Advanced E-Commerce (N-Tier)** | Refactored E-Commerce system implementing Service Layer, Dependency Injection, and DTO Mappers. | ✅ Completed   |
+| 05  | **Identity & JWT Auth Service**  | Enterprise-grade User Authentication, JWT Tokens, and Role-Based Authorization.                 | 🔄 In Progress |
 | 06  | **Production E-Commerce Engine** | External API Integration (Currency Conversion), Pagination, Filtering, and Cloud Deployment.    | ⏳ Planned     |
 
 ## 🎯 Goal
