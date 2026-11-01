@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|Advanced_ECommerce_API.csproj|c:\\users\\ilham\\desktop\\c#-mini-apis\\csharp-training-apis\\advanced_ecommerce_api\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|Advanced_ECommerce_API.csproj|solutionrelative:controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|Advanced_ECommerce_API.csproj|c:\\users\\ilham\\desktop\\c#-mini-apis\\csharp-training-apis\\advanced_ecommerce_api\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8ACD22C-4E65-4AF1-9B3F-CD2F9675E70E}|Advanced_ECommerce_API.csproj|solutionrelative:controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomBaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Controllers\\CustomBaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomBaseController.cs",
+              "ToolTip": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Controllers\\CustomBaseController.cs",
+              "RelativeToolTip": "Controllers\\CustomBaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T14:23:37.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CartsController.cs",
               "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Controllers\\CartsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartsController.cs",
@@ -47,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,12 +76,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T15:59:48.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T15:59:48.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
@@ -68,16 +88,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T15:58:05.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2026-10-27T15:58:05.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "Services\\ProductService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwDYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T15:51:33.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T15:51:33.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Ilham\\Desktop\\C#-Mini-APIs\\CSharp-Training-APIs\\Advanced_ECommerce_API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
@@ -98,8 +112,7 @@
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAcwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T15:49:46.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T15:49:46.774Z"
             }
           ]
         },
