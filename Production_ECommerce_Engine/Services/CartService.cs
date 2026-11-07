@@ -14,10 +14,12 @@ namespace Production_ECommerce_Engine.Services
     public class CartService : ICartService
     {
         private readonly AppDbContext _context;
+        private readonly ICurrencyService _currencyService;
 
-        public CartService(AppDbContext context)
+        public CartService(AppDbContext context,ICurrencyService currencyService)
         {
             _context = context;
+            _currencyService = currencyService;
         }
 
         public async Task<ServiceResult<bool>> AddToCartAsync(int userId, int productId, int quantity)
@@ -112,10 +114,13 @@ namespace Production_ECommerce_Engine.Services
 
             var cartTotal = itemsDto.Sum(d => d.TotalPrice);
 
+            decimal usdRate = await _currencyService.GetUsdRateAsync();
+
             var responseDto = new CartResponseDto
             {
                 Items = itemsDto,
                 GrandTotal = cartTotal,
+                GrandTotalUsd = cartTotal*usdRate,
             };
 
             return ServiceResult<CartResponseDto>.Success(responseDto, "Cart retrieved successfully",200);

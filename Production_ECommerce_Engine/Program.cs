@@ -9,7 +9,7 @@ using Production_ECommerce_Engine.Services;
 
 namespace Production_ECommerce_Engine
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
@@ -28,7 +28,10 @@ namespace Production_ECommerce_Engine
                 );
 
             builder.Services.AddScoped<ICartService, CartService>();
+
             builder.Services.AddScoped<IProductService, ProductService>();
+
+            builder.Services.AddHttpClient<ICurrencyService, CurrencyService>();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
