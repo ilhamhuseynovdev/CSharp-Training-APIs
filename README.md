@@ -27,7 +27,7 @@ To demonstrate my learning progression, each phase of my journey is separated in
 | 04  | **Advanced E-Commerce (N-Tier)**   | Extracted logic from Controllers to Services, Dependency Injection, `ServiceResult<T>` pattern. | ✅ Completed |
 | 05  | **Identity & JWT Auth API**        | ASP.NET Core Identity, Password Hashing, custom Claims, and JWT Bearer Token generation.        | ✅ Completed |
 | 06  | **Production E-Commerce Engine**   | Data Pagination (`Skip`/`Take`) and External API Integration (`HttpClient`) for currency rates. | ✅ Completed |
-| 07  | **E-Commerce Media Service**       | Handling `multipart/form-data`, uploading product images to Local `wwwroot` or Cloud Storage.   | ⏳ Planned   |
+| 07  | **E-Commerce Media Service**       | Handling `multipart/form-data`, uploading product images to Local `wwwroot` or Cloud Storage.   | ✅ Completed   |
 | 08  | **High-Performance API (Redis)**   | Implementing Distributed Caching with Redis to reduce external API and Database loads.          | ⏳ Planned   |
 | 09  | **Background Worker Service**      | Scheduling automated background tasks (e.g., clearing unpaid carts) using Hangfire.             | ⏳ Planned   |
 
