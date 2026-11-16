@@ -21,14 +21,14 @@ namespace ECommerce_Media_Service.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllProducts([FromQuery]int pageNumber,int pageSize)
+        public async Task<IActionResult> GetAllProducts([FromQuery] int pageNumber, int pageSize)
         {
-            var result = await _productService.GetAllProductsAsync(pageNumber,pageSize);
+            var result = await _productService.GetAllProductsAsync(pageNumber, pageSize);
             return CreateActionResult(result);
         }
 
         [HttpPost("create-product")]
-        public async Task<IActionResult> CreateProduct([FromForm]CreateProductDto dto)
+        public async Task<IActionResult> CreateProduct([FromForm] CreateProductDto dto)
         {
             var result = await _productService.CreateProductAsync(dto);
 
@@ -45,5 +45,12 @@ namespace ECommerce_Media_Service.Controllers
         }
 
 
+        [HttpPost("{id}")]
+
+        public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto dto)
+        {
+            var result = await _productService.UpdateProductAsync(id, dto);
+            return CreateActionResult(result);
+        }
     }
 }

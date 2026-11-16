@@ -9,6 +9,7 @@ namespace ECommerce_Media_Service.Services.Interfaces
     {
         Task<ServiceResult<List<Product>>> GetAllProductsAsync(int pageNumber,int pageSize);
         Task<ServiceResult<bool>> CreateProductAsync(CreateProductDto dto);
+        Task<ServiceResult<bool>> UpdateProductAsync(int id ,UpdateProductDto dto);
         Task<ServiceResult<bool>> CreateUserAsync(CreateUserDto dto);
 
     }

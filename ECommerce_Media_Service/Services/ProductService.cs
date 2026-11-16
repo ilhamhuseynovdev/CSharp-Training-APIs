@@ -86,5 +86,42 @@ namespace ECommerce_Media_Service.Services
 
             return ServiceResult<List<Product>>.Success(products);
         }
+
+        public async Task<ServiceResult<bool>> UpdateProductAsync(int id, UpdateProductDto dto)
+        {
+            if (dto is null) return ServiceResult<bool>.Failure("Data cant be null",400);
+
+            var product = await _context.Products.FirstOrDefaultAsync(p=>p.Id == id);
+            if (product == null) return ServiceResult<bool>.Failure("Product not found",404);
+
+            var isExistsName = await _context.Products.AnyAsync(p=>p.Name == dto.Name && p.Id != id);
+            if (isExistsName) return ServiceResult<bool>.Failure("Name already used",400);
+
+            if (dto.ImageUrl is not null)
+            {
+                var uploadResult = await _fileService.UploadFileAsync(dto.ImageUrl,"images");
+
+                if (!uploadResult.IsSuccess)
+                {
+                    return ServiceResult<bool>.Failure(uploadResult.Message, uploadResult.StatusCode);
+                }
+
+                var existsImage = product.ImageUrl;
+
+                if (!string.IsNullOrEmpty(product.ImageUrl))
+                    _fileService.DeleteFile(product.ImageUrl);
+
+                product.ImageUrl = uploadResult.Data;
+            }
+
+            product.Price = dto.Price;
+            product.StockQuantity = dto.StockQuantity;
+            product.Name = dto.Name;
+
+            await _context.SaveChangesAsync();
+
+
+            return ServiceResult<bool>.Success(true);
+        }
     }
 }
